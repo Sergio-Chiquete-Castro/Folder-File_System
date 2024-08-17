@@ -4,7 +4,7 @@ def setup_database():
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sergio2003"
+        password="******"
     )
 
     mycursor = db.cursor()
@@ -26,7 +26,7 @@ def add_file_and_tag(file_name, tag):
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sergio2003",
+        password="******"
         database="mydatabase"
     )
 
@@ -45,7 +45,7 @@ def fetch_tags(file_name):
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sergio2003",
+        password="******"
         database="mydatabase"
     )
 
